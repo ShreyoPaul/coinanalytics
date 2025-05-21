@@ -42,7 +42,7 @@ This server provides RESTful APIs to serve live cryptocurrency statistics (Bitco
 
 4.  **Run the server**:
     ```bash
-    npm start
+    node index.js
 
 ## 📬 API Endpoints
 
