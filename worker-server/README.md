@@ -36,7 +36,7 @@ This background worker server publishes an `update` event every 15 minutes to a 
 
 4.  **Run the server**:
     ```bash
-    npm start
+    node index.js
 
 ## 🔁 Job Details
 
