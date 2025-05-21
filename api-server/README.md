@@ -57,3 +57,7 @@ Returns the standard deviation of the last 100 price entries.
 - Make sure NATS server and MongoDB are running before starting this server.
 
 - This server listens to update messages from the event queue to fetch and store data.
+
+- You must have NATs server or you can run docker image like
+  ```bash
+  docker run -p 4222:4222 -ti nats
